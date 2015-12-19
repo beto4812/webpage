@@ -1,0 +1,333 @@
+/* Navbar */
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    font: 12px 'opensans-bold';
+}
+
+.navbar-default .navbar-nav > li > a{
+  color: #FFF;
+}
+
+
+@media(max-width:770px){
+  .navbar-default .navbar-nav > li > a{
+    background-color: #333;
+  }
+  .navbar-default .navbar-nav > li > a:focus {
+    background-color: #333;
+    color: #337ab7;
+  }
+}
+
+
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  z-index: 20;
+  font: 12px 'opensans-bold';
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+}
+
+.navbar-default {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0);
+}
+
+
+
+
+html, body {
+    height: 100%;
+}
+
+/* Home Backgroung */
+
+.home{
+   position: relative;
+   display: block;
+   height: 100%;
+   width: auto;
+   background-color: #222222;
+   background: #161415 url(../images/img1.jpg) no-repeat top center;
+   background-attachment: scroll;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   background-size: cover;
+   padding: 100px 0;
+}
+
+/* Home Content */
+
+.home-content {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+@media(min-width:767px){
+  .home-content{
+    width: 50%;
+  }
+}
+
+
+.home-content .title{
+  font: 30px/1.1em 'opensans-bold';
+  color: white;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+}
+
+
+@media(min-width:767px){
+  .home-content .title{
+    font: 45px/1.1em 'opensans-bold';
+  }
+}
+
+.home-content .subtitle{
+  font: 20px/1.1em 'roboto-Light';
+  color: white;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+  margin-top: 15px;
+}
+
+/*Social*/
+
+.home-content .social {
+   margin: 24px 0;
+   padding: 0;
+   font-size: 30px;
+   text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+}
+
+.home-content .social li {
+   display: inline-block;
+   margin: 0 15px;
+   padding: 0;
+}
+
+/* Scrolldown */
+.scroll-down {
+  position: absolute;
+  width: 100%;
+  bottom: 20px;
+  text-align: center;
+}
+
+.scroll-down .btn {
+  height: 50px;
+  width: 50px;
+  border: 2px solid white;
+  border-radius: 100% !important;
+  line-height: 50px;
+  padding: 0;
+  letter-spacing: normal;
+  color: white;
+  font-size: 30px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.scroll-down .btn:hover {
+  color: rgba(255, 255, 255, 0.5);
+  border-color: rgba(255, 255, 255, 0.5);
+  outline: none;
+}
+
+
+/* Section */
+
+section {
+  padding: 20px 0;
+
+}
+
+@media(min-width:767px){
+  section {
+    padding: 100px 0;
+
+  }
+}
+
+
+/* About */
+
+.pad{
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+
+
+#about{
+    background: #2B2B2B;
+
+}
+
+#about h1{
+  color: white;
+}
+
+#about p{
+  color: white;
+}
+
+
+#about h3{
+  color: white;
+}
+
+#about .download .button {
+    margin-top: 6px;
+    background: #444;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 15vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+
+/* Resume */
+
+#resume{
+  //padding-left: 150px;
+  //padding-right: 150px;
+  padding-bottom: 100px;
+}
+
+@media(min-width:767px){
+  #resume{
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 100px;
+  }
+}
+
+@media(min-width:767px){
+  #resume .space{
+    padding-bottom: 30px;
+  }
+}
+
+
+#resume p{
+  //color: red;
+  //vertical-align: middle;
+
+}
+
+#resume h2{
+  font: 30px/1.1em 'roboto-Bold';
+}
+
+#resume h3{
+  font: 20px/1.1em 'roboto-Bold';
+}
+
+#resume h2 span{
+  border-bottom: 3px solid #11ABB0;
+  padding-bottom: 6px;
+}
+
+#resume #col1{
+  //background-color: yellow;
+}
+
+#resume #col2{
+  //background-color: pink;
+}
+
+
+/* Scrolldown */
+
+.scrolldown a:hover { color: #11ABB0; }
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* General */
+
+h1 {
+  font: 52px/1.1em 'roboto-Bold';
+}
+
+p{
+  font: 18px/1.1em 'roboto-Light';
+  line-height: 1.5;
+}
+
+@media (min-width: 768px) {
+
+}
+
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/OpenSans-Regular-webfont.eot');
+    src: url('../fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Regular-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'opensans-bold';
+    src: url('../fonts/OpenSans-Bold-webfont.eot');
+    src: url('../fonts/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Bold-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto-Light';
+    src: url('../fonts/Roboto-Light-webfont.eot');
+    src: url('../fonts/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-Light-webfont.woff') format('woff'),
+         url('../fonts/Roboto-Light-webfont.ttf') format('truetype'),
+         url('../fonts/Roboto-Light-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'roboto-Bold';
+    src: url('../fonts/Roboto-Bold-webfont.eot');
+    src: url('../fonts/Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-Bold-webfont.woff') format('woff'),
+         url('../fonts/Roboto-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/Roboto-Bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
