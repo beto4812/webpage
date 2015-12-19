@@ -200,6 +200,7 @@ section {
     background: #444;
 }
 
+
 .vertical-center {
   min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
   min-height: 15vh; /* These two lines are counted as one :-)       */
@@ -212,8 +213,6 @@ section {
 /* Resume */
 
 #resume{
-  //padding-left: 150px;
-  //padding-right: 150px;
   padding-bottom: 100px;
 }
 
@@ -232,19 +231,28 @@ section {
 }
 
 
-#resume p{
-  //color: red;
-  //vertical-align: middle;
-
-}
-
 #resume h2{
   font: 30px/1.1em 'roboto-Bold';
 }
 
-#resume h3{
+
+/*#resume h3{
+  font: 20px/1.1em 'roboto-Bold';
+}*/
+
+.bold{
   font: 20px/1.1em 'roboto-Bold';
 }
+
+.it{
+  font: 20px/1.1em 'roboto-Italic';
+}
+
+
+#resume{
+  font: 20px/1.1em 'roboto-Bold';
+}
+
 
 #resume h2 span{
   border-bottom: 3px solid #11ABB0;
@@ -281,6 +289,7 @@ p{
   font: 18px/1.1em 'roboto-Light';
   line-height: 1.5;
 }
+
 
 @media (min-width: 768px) {
 
@@ -328,6 +337,18 @@ p{
          url('../fonts/Roboto-Bold-webfont.woff') format('woff'),
          url('../fonts/Roboto-Bold-webfont.ttf') format('truetype'),
          url('../fonts/Roboto-Bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'roboto-Italic';
+    src: url('../fonts/Roboto-Italic-webfont.eot');
+    src: url('../fonts/Roboto-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-Italic-webfont.woff') format('woff'),
+         url('../fonts/Roboto-Italic-webfont.ttf') format('truetype'),
+         url('../fonts/Roboto-Italic-webfont.svg#open_sansbold') format('svg');
     font-weight: normal;
     font-style: normal;
 }
