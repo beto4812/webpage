@@ -43,21 +43,8 @@
           <div class="col-md-8" id="col2">
             <div class="row">
                 <div class="col-sm-6">
-                    <h3 class="bold">Scala Junior Developer at Sumdog <a href="https://www.sumdog.com/" target="_blank"><i class="fa fa-external-link"></i></a><h3>
-                      <p>Part-time student developer.<p>
-                      <p>Developed in Scala to provide logic for educational video games.</p>
-                  </div>
-                <div class="col-sm-6">
-                  <h3 class="it">Edinburgh, United Kingdom</h3>
-                  <p>February 2016­ June 2016</p>
-                </div>
-              </div>
-            <div class="row">
-                <div class="col-sm-6">
-                    <h3 class="bold">Java Junior Developer at Salinas Group <a href="http://www.gruposalinas.com/en" target="_blank"><i class="fa fa-external-link"></i></a><h3>
-                      <p>Full-time junior developer for Salinas Group.<p>
-                      <p>Developed responsive web applications for Elektra and Blockbuster.</p>
-                      <p>Developed back-end APIs in Java and C#.</p>
+                    <h3 class="bold">Java Junior Developer at Salinas Group<h3>
+                      <p>Front­end and back­end developer. Developed private web applications for Elektra and Blockbuster.<p>
                   </div>
                 <div class="col-sm-6">
                   <h3 class="it">Mexico City, Mexico</h3>
@@ -66,9 +53,8 @@
               </div>
               <div class="row">
                   <div class="col-sm-6">
-                      <h3 class="bold">Internship at Ford Motor Company <a href="http://corporate.ford.com/" target="_blank"><i class="fa fa-external-link"></i></a> <h3>
-                        <p>Intern for the product development area.<p>
-                        <p>Developed a Share point web application to assist product engineers.</p>
+                      <h3 class="bold">Developer at Ford Motor Company (Intern)<h3>
+                        <p>Analysis, design, development and implementation of web application to automate business process.<p>
                     </div>
                   <div class="col-sm-6">
                     <h3 class="it">Mexico City, Mexico</h3>
@@ -94,7 +80,7 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-6">
-                        <h3 class="bold">Robocup Joao Pessoa 2014 <a href="http://www.robocup2014.org/" target="_blank"><i class="fa fa-external-link"></i></a><h3>
+                        <h3 class="bold">Robocup Joao Pessoa 2014 <h3>
                           <p>Third international place (​Festo Logistics League​)<p>
                       </div>
                     <div class="col-sm-6">
@@ -114,8 +100,8 @@
                   </div>
                   <div class="row">
                       <div class="col-sm-6">
-                          <h3 class="bold">Robocup Eindhoven 2013  <a href="http://www.robocup2013.org/" target="_blank"><i class="fa fa-external-link"></i></a><h3>
-                          <p>Participation on the Festo Logistics League<p>
+                          <h3 class="bold">Robocup Eindhoven 2013<h3>
+                          <p>Sixth International place (​Festo Logistics League​)<p>
                         </div>
                       <div class="col-sm-6">
                         <h3 class="it">Eindhoven, Netherlands</h3>
@@ -134,7 +120,7 @@
                   </div>
                   <div class="row">
                       <div class="col-sm-6">
-                          <h3 class="bold">Robocup Mexico 2012 <a href="http://www.robocup2012.org/" target="_blank"><i class="fa fa-external-link"></i></a><h3>
+                          <h3 class="bold">Robocup Mexico 2012<h3>
                           <p>Third International place (​Festo Logistics League​)<p>
                         </div>
                       <div class="col-sm-6">
