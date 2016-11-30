@@ -159,7 +159,7 @@ html, body {
 
 
 /* Section */
-
+/*
 section {
   padding: 20px 0;
 
@@ -171,7 +171,7 @@ section {
 
   }
 }
-
+*/
 
 /* About */
 
@@ -640,7 +640,7 @@ Resume Timeline
 }
 
 .timeline>li .timeline-content:hover {
-    background: #4479ce;
+    background: #729ada;
     color: #fff;
 }
 
@@ -739,3 +739,99 @@ Resume Timeline
 }
 
 .top-buffer { margin-top:40px; }
+
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+.skills-section {
+    background-color: #333;
+    color: white;
+}
+
+#skills h2{
+  color: #fff;
+  margin-bottom: 110px;
+}
+
+.chart {
+    position: relative;
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+
+
+/* === MAIN === */
+.section-padding {
+	padding: 120px 0 100px;
+}
+
+/* === Bg Section === */
+.separate-section {
+    background: url(../images/counter-bg.jpg) no-repeat top center #68C3A3;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+}
+.separate-section-bg {
+    padding: 110px 0;
+    background: -webkit-linear-gradient(bottom, #68C3A3, rgba(104, 195, 163, 0.7)); /*Safari 5.1-6*/
+    background: -o-linear-gradient(top, #68C3A3, rgba(104, 195, 163, 0.7)); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(top, #68C3A3, rgba(104, 195, 163, 0.7)); /*Fx 3.6-15*/
+    background: linear-gradient(to top, #337ab7, rgba(153, 204, 255, 0.7)); /*Standard*/
+}
+
+.separate-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.separate-section .btn {
+    padding: 9px 54px;
+}
+
+/* === Hire Section === */
+.hire-section {
+    background: url(../images/counter-bg.jpg) no-repeat top center #68C3A3;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+}
+.hire-section-bg {
+    padding: 110px 0;
+    background: -webkit-linear-gradient(bottom, #68C3A3, rgba(104, 195, 163, 0.7)); /*Safari 5.1-6*/
+    background: -o-linear-gradient(top, #68C3A3, rgba(104, 195, 163, 0.7)); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(top, #68C3A3, rgba(104, 195, 163, 0.7)); /*Fx 3.6-15*/
+    background: linear-gradient(to top, #337ab7, rgba(153, 204, 255, 0.7)); /*Standard*/
+}
+
+.hire-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.hire-section .btn {
+    padding: 9px 54px;
+}
+
+/* === Footer === */
+
+.footer-wrapper {
+    background: #1a1e23;
+    padding: 36px 0;
+    color: #fff;
+}

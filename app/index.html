@@ -58,25 +58,44 @@
     <div class="home">
       <div ng-include="'views/home.html'" ng-controller="MainCtrl"></div>
     </div>
-    <section id="about">
+    <section id="about" class="section-padding">
       <div ng-include="'views/about.html'" ng-controller="MainCtrl"></div>
     </section>
-    <section id="projects">
+    <section id="projects" class="section-padding">
       <div ng-include="'views/projects.html'" ng-controller="MainCtrl"></div>
     </section>
-
-    <!--<section id="services">
-      <div ng-include="'views/services.html'" ng-controller="MainCtrl"></div>
-    </section>-->
-    <section id="resume">
+    <section id="resume" class="section-padding">
       <div ng-include="'views/resume.html'" ng-controller="MainCtrl"></div>
     </section>
+    <section id="separate" class="separate-section text-center" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2" style="background-position: 50% 23.4px;">
+      <div ng-include="'views/separate.html'" ng-controller="MainCtrl"></div>
+    </section>
+    <section id="awards" class="section-padding">
+      <div ng-include="'views/awards.html'" ng-controller="MainCtrl"></div>
+    </section>
+    <section id="skills" class="skills-section section-padding">
+      <div ng-include="'views/skills.html'" ng-controller="MainCtrl"></div>
+    </section>
+    <section id="hire" class="hire-section text-center">
+      <div ng-include="'views/hire.html'" ng-controller="MainCtrl"></div>
+    </section>
 
-    <div class="footer">
+    <footer class="footer-wrapper">
+    			<div class="container">
+    				<div class="row">
+    					<div class="col-md-12">
+    						<div class="copyright text-center">
+    							<p>© Alberto Vazquez 2016.</p>
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+    </footer>
+    <!--<div class="footer">
       <div class="container">
         <p><img src="http://icons.iconarchive.com/icons/custom-icon-design/flag-3/32/Mexico-Flag-icon.png"></img></p>
       </div>
-    </div>
+    </div>-->
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
     <script src="bower_components/jquery/dist/jquery.js"></script>
